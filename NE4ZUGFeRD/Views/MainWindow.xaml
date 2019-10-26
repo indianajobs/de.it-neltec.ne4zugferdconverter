@@ -1,0 +1,22 @@
+﻿<Window x:Class="NE4ZUGFeRD.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="NE4PonyConverter" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="26*"/>
+            <ColumnDefinition Width="73*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="btnAddZUGFeRD" Content="ZUGFeRD einbetten!" HorizontalAlignment="Left" Margin="10,369,0,0" VerticalAlignment="Top" Width="200" Height="40" Click="BtnAddZUGFeRD_Click" Grid.ColumnSpan="2"/>
+        <Button Name="btnShowZUGFeRD" Content="ZUGFerRD auslesen!" HorizontalAlignment="Left" Margin="23.089,369,0,0" VerticalAlignment="Top" Width="200" Height="40" Click="BtnShowZUGFeRD_Click" Grid.Column="1"/>
+        <GroupBox Name="grpBxManual" Header="Beispiele und Bedienung" HorizontalAlignment="Left" Height="343" Margin="289.089,10,0,0" VerticalAlignment="Top" Width="285" Grid.Column="1">
+            <Grid>
+                <Button Name="btnAddZUGFeRDExample" Content="ZUGFeRD Beispiel einbinden" HorizontalAlignment="Left" Margin="10,281,0,0" VerticalAlignment="Top" Width="253" Height="30" Click="BtnAddZUGFeRDExample_Click"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>
