@@ -10,7 +10,7 @@ using System.Windows;
 [assembly: AssemblyTitle("NE4ZUGFeRD")]
 [assembly: AssemblyDescription("Schnittstelle ZUGFeRD-konforme Rechnung (momentan nur BASIC 1.0)")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("IT-neltec")]
+[assembly: AssemblyCompany("IT-neltec | Autor: Oliver Nelles")]
 [assembly: AssemblyProduct("NE4ZUGFeRD.BASIC")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
